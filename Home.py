@@ -53,7 +53,7 @@ with textcol:
     st.subheader("""I'm interested in the intersection of **data** with **mobility** 🚅 and **(sustainable!) development** 🌱""")
     st.write("""I want to use data science to :violet[unravel patterns that derive actional insights].""") 
     st.write("""In my spare time, I watch films, play video games, and try my hand at mathematical and programming mini-projects.""")
-    st.write("""Thank you for taking the time to check out my portfolio! If you have any questions or comments, feel free to contact me using this form or shoot me an email at diannecyumol@gmail.com.""")
+    st.write("""Thank you for taking the time to check out my portfolio! If you have any questions or comments, feel free to shoot me an email at diannecyumol@gmail.com.""")
     container = st.container(border=True)
     container.page_link("https://drive.google.com/file/d/1mzKGFkiQDqgd0JY-7a6e7dQv8PhMZlW5/view?usp=sharing", label="Looking for my resume? Check it out here!", icon="📃")
 

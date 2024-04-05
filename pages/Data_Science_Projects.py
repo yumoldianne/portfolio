@@ -1,6 +1,5 @@
 import streamlit as st
 from st_pages import Page, add_page_title, show_pages, hide_pages
-from streamlit_extras.switch_page_button import switch_page
 
 st.set_page_config(
     page_title="Data Science Projects",
