@@ -25,7 +25,7 @@ st.image("images/title slide.png")
 st.header("🏦 Banking Dynamics with Customer Segmentation and Time Series Analysis")
 col1, col2, col3= st.columns([0.2, 0.2, 0.6], gap = "small")
 with col1:
-    st.page_link("hhttps://github.com/yumoldianne/banking-dynamics", label="View in Github", icon="🤖")
+    st.page_link("https://github.com/yumoldianne/banking-dynamics", label="View in Github", icon="🤖")
 with col2:
     st.page_link("https://drive.google.com/file/d/1DbrreSkAiNZj1Yw5AdlDtj-eLnHdg3c2/view?usp=sharing", label ="Read the report", icon="📄")
 
