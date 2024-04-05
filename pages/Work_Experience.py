@@ -14,11 +14,12 @@ show_pages(
         Page("pages/Data_Science_Projects.py", "Data Science Projects", "📊"),
         Page("pages/Work_Experience.py", "Work Experience", "💼"),
         Page("pages/Other_Projects.py", "Other Projects", "📦"),
-        Page("pages/Banking_Dynamics.py", "Banking Dynamics", "🏦")
+        Page("pages/Banking_Dynamics.py", "Banking Dynamics", "🏦"),
+        Page("pages/MH_DisClass.py", "Mental Health Discourse Classifier", "🧠")
     ]
 )
 
-hide_pages(["Banking Dynamics"])
+hide_pages(["Banking Dynamics", "Mental Health Discourse Classifier"])
 
 def my_widget(key):
     return st.button(key)
@@ -70,6 +71,5 @@ with st.sidebar:
     st.write("Playing Hades ⚔️")
 
     st.subheader("""Let's connect!""")
-    st.write("📧 Email")
     st.page_link("https://www.linkedin.com/in/yumoldianne/", label="LinkedIn", icon="🤝")
     st.page_link("https://github.com/yumoldianne", label="GitHub", icon="🤖")

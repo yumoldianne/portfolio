@@ -35,11 +35,12 @@ show_pages(
         Page("pages/Data_Science_Projects.py", "Data Science Projects", "📊"),
         Page("pages/Work_Experience.py", "Work Experience", "💼"),
         Page("pages/Other_Projects.py", "Other Projects", "📦"),
-        Page("pages/Banking_Dynamics.py", "Banking Dynamics", "🏦")
+        Page("pages/Banking_Dynamics.py", "Banking Dynamics", "🏦"),
+        Page("pages/MH_DisClass.py", "Mental Health Discourse Classifier", "🧠")
     ]
 )
 
-hide_pages(["Banking Dynamics"])
+hide_pages(["Banking Dynamics", "Mental Health Discourse Classifier"])
 
 def my_widget(key):
     return st.button(key)
@@ -48,9 +49,9 @@ st.image("images/Portfolio.png")
 st.title("""⛅ About Me""")
 textcol, imagecol = st.columns([0.5, 0.5], gap = "medium")
 with textcol:
-    st.write("""I'm a **data scientist** and **researcher** from Metro Manila. I like to learn, solve problems, and tinker.""")
+    st.write(""":violet[I'm a **data scientist** and **researcher** from Metro Manila. I like to learn, solve problems, and tinker.]""")
     st.subheader("""I'm interested in the intersection of **data** with **mobility** 🚅 and **(sustainable!) development** 🌱""")
-    st.write("""I want to use data science to unravel patterns that derive actional insights.""") 
+    st.write("""I want to use data science to :violet[unravel patterns that derive actional insights].""") 
     st.write("""In my spare time, I watch films, play video games, and try my hand at mathematical and programming mini-projects.""")
     st.write("""Thank you for taking the time to check out my portfolio! If you have any questions or comments, feel free to contact me using this form or shoot me an email at diannecyumol@gmail.com.""")
     container = st.container(border=True)
@@ -77,10 +78,9 @@ expand = False
 
 with st.sidebar:
     st.subheader("Currently, I'm...")
-    st.write("Working on a webscraping project 📈")
+    st.write("Working on a forecasting project 📈")
     st.write("Playing Hades ⚔️")
 
     st.subheader("""Let's connect!""")
-    st.write("📧 Email")
     st.page_link("https://www.linkedin.com/in/yumoldianne/", label="LinkedIn", icon="🤝")
     st.page_link("https://github.com/yumoldianne", label="GitHub", icon="🤖")

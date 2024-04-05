@@ -15,18 +15,19 @@ show_pages(
         Page("pages/Data_Science_Projects.py", "Data Science Projects", "📊"),
         Page("pages/Work_Experience.py", "Work Experience", "💼"),
         Page("pages/Other_Projects.py", "Other Projects", "📦"),
-        Page("pages/Banking_Dynamics.py", "Banking Dynamics", "🏦")
+        Page("pages/Banking_Dynamics.py", "Banking Dynamics", "🏦"),
+        Page("pages/MH_DisClass.py", "Mental Health Discourse Classifier", "🧠")
     ]
 )
 
-hide_pages(["Banking Dynamics"])
+hide_pages(["Banking Dynamics", "Mental Health Discourse Classifier"])
 
 def my_widget(key):
     return st.button(key)
 
 st.title("📊 Data Science Projects")
 st.write("Delve into the projects I poured my heart into!")
-st.write("My projects have two classifications: projects and mini-projects.")
+st.write("My projects have two classifications: :violet[projects] and :blue[mini-projects].")
 
 expand=False
 
@@ -39,17 +40,22 @@ with tab1:
    container = st.container(border=True)
    container.image("images/title slide.png")
    container.write("We conducted a data science project for a bank, emphasizing customer segmentation and time series forecasting to improve business decisions and customer satisfaction. Our work included data cleaning, exploratory analysis, and optimizing segmentation with five clustering algorithms. We also conducted hypothesis testing using the Kruskal-Wallis test and employed Prophet for time series forecasting.")
-   #container.page_link("pages/Banking_Dynamics.py", label = "Read more about the project here!", icon ="🗃️")
+   container.page_link("pages/Banking_Dynamics.py", label = "Read more about the project here!", icon ="🗃️")
    st.subheader("🧘 Mental Health Patterns in Pandemic Discourse Classifier")
    container = st.container(border=True)
    container.image("images/MindInsight Classifier.jpg")
    container.write("We developed Convolutional Neural Network (CNN) and Long Short-Term Momory (LSTM) models trained on a varied dataset of Reddit posts discussing mental health during the pandemic. The project aimed to classify posts into categories like anxiety, schizophrenia, and more, shedding light on the complexities of identifying overlapping symptoms and understanding the language used by those experiencing these conditions.")
-   container.caption("*Read more about the project here!*")
+   container.page_link("pages/MH_DisClass.py", label = "Read more about the project here!", icon ="🗃️")
    st.subheader("📅 Economic Calendar Web Scraper")
    container = st.container(border=True)
    #container.image("images/title slide.png")
    container.write("This project was my output for one of my internships. It utilized Selenium and BeautifulSoup to scrape economic calendar data from multiple websites and collected and organized event data by country, impact level, and asset type.")
    container.caption("*Please note that due to internship constraints, I'm unable to provide further details about this project.*")
+   st.subheader("📝 Ateneo AISIS Enlistment Dashboard")
+   container = st.container(border=True)
+   #container.image("images/title slide.png")
+   container.write("The project involved analyzing the enlistment process of Ateneo de Manila University to identify data metrics at each stage. From this analysis, a dimensional data schema was devised, detailing the necessary information for each step. Mock data was then generated and populated into fact and dimension tables to simulate the enrollment process. Subsequently, a dashboard using streamlit and plotly was created utilizing the mock data. OLAP operations were applied to extract further insights from the data, exploring trends and patterns within the enrollment process.")
+   container.caption("Coming soon!")
 
 with tab2:
    st.header("📈 Mini-Projects")
@@ -92,6 +98,5 @@ with st.sidebar:
     st.write("Playing Hades ⚔️")
 
     st.subheader("""Let's connect!""")
-    st.write("📧 Email")
     st.page_link("https://www.linkedin.com/in/yumoldianne/", label="LinkedIn", icon="🤝")
     st.page_link("https://github.com/yumoldianne", label="GitHub", icon="🤖")
