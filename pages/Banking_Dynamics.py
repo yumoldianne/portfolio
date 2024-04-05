@@ -10,7 +10,7 @@ st.set_page_config(
 
 show_pages(
     [
-        Page("pages/Home.py", "Home", "🏠"),
+        Page("Home.py", "Home", "🏠"),
         Page("pages/Data_Science_Projects.py", "Data Science Projects", "📊"),
         Page("pages/Work_Experience.py", "Work Experience", "💼"),
         Page("pages/Other_Projects.py", "Other Projects", "📦"),
