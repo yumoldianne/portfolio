@@ -55,7 +55,7 @@ with textcol:
     st.write("""In my spare time, I watch films, play video games, and try my hand at mathematical and programming mini-projects.""")
     st.write("""Thank you for taking the time to check out my portfolio! If you have any questions or comments, feel free to shoot me an email at diannecyumol@gmail.com.""")
     container = st.container(border=True)
-    container.page_link("https://drive.google.com/file/d/1mzKGFkiQDqgd0JY-7a6e7dQv8PhMZlW5/view?usp=sharing", label="Looking for my resume? Check it out here!", icon="📃")
+    container.page_link("https://drive.google.com/file/d/1vasbVx-H0kugkDThPe6jtH6UvvQvVpJb/view?usp=sharing", label="Looking for my resume? Check it out here!", icon="📃")
 
 with imagecol:
     st.image("images/Portfolio_1.png")
