@@ -61,6 +61,7 @@ st.title("📑 Research")
 st.write("""Here are some research I was part of!""")
 with st.expander('💉 **3rd DLSU Senior High School Congress** - Spatial Mapping and Modeling of Reported Dengue Incidences in Luzon', expanded=expand):
      st.write('In this paper, we aimed to determine the significant correlates that affect dengue incidences, mapped the incidence rate of dengue cases, and explored the clustering of recorded dengue cases through the use of Poisson and Negative Binomial regression analyses and Multiple Linear Regression Models.')
+     st.page_link("https://animorepository.dlsu.edu.ph/cgi/viewcontent.cgi?article=1621&context=conf_shsrescon", label = "Check out paper here!", icon = "📄")
 
 def my_widget(key):
     return st.button(key)
