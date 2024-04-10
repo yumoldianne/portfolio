@@ -22,13 +22,25 @@ show_pages(
 hide_pages(["Banking Dynamics", "Mental Health Discourse Classifier"])
 
 st.title("📦 Other Projects")
-st.write("Here are some of my other projects that do not involve data science.")
+st.write("Here are some of my other projects that I've worked on!")
 
 st.subheader("🖊️ Narrative Design")
 st.write("""One of the things I love the most is writing. Whether it be character narratives or personal essays, I love weaving words to create meaning.""")
+#expand = False
+#with st.expander():
+    #st.write 
 
 st.subheader("🖌️ Graphic Design")
 st.write("""Recently, I have gotten into graphic design using Figma. I wanted to utilize Figma to create illustrations and better data visualizations. This section is a work-in-progress since I just recently ventured into this foray.""")
+#expand = False
+#with st.expander():
+    #st.write 
+
+st.subheader("🌍 Web Applications")
+st.write("""Streamlit allowed me to create web apps with ease. Here are some of those apps:""")
+#expand = False
+#with st.expander():
+    #st.write 
 
 with st.sidebar:
     st.subheader("Currently, I'm...")

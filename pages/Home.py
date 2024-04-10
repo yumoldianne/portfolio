@@ -50,7 +50,7 @@ st.title("""⛅ About Me""")
 textcol, imagecol = st.columns([0.5, 0.5], gap = "medium")
 with textcol:
     st.write(""":violet[I'm a **data scientist** and **researcher** from Metro Manila. I like to learn, solve problems, and tinker.]""")
-    st.subheader("""I'm interested in the intersection of **data** with **mobility** 🚅 and **(sustainable!) development** 🌱""")
+    st.subheader("""I'm interested in the intersection of **data** with **mobility** 🚅 and **health/nutrition** 🌱""")
     st.write("""I want to use data science to :violet[unravel patterns that derive actional insights].""") 
     st.write("""In my spare time, I watch films, play video games, and try my hand at mathematical and programming mini-projects.""")
     st.write("""Thank you for taking the time to check out my portfolio! If you have any questions or comments, feel free to shoot me an email at diannecyumol@gmail.com.""")
