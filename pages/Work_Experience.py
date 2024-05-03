@@ -27,7 +27,10 @@ def my_widget(key):
 st.title('💼 Work Experience')
 st.write("""Take a look at the work I've been doing.""")
 expand=False
-with st.expander('💵 **Undisclosed Hedge Fund** - Data Operator Intern (March 2024 - Present)', expanded=expand):
+with st.expander('🥤 **Coca-Cola Beverages Philippines, Inc. ** - Analytics and Insights Intern (May 2024 - Present)', expanded=expand):
+     st.write("""As an analytics and insights intern, I work under the Commercial Analytics & Insights team. """)
+     st.caption('Skills: Data Analysis')
+with st.expander('💵 **Undisclosed Hedge Fund** - Data Operator Intern (March 2024 - April 2024)', expanded=expand):
      st.write("""As a data operator intern, I utilized Python for web-scraping and data processing tasks and employing libraries such as:""")
      st.write("""- Selenium and BeautifulSoup to scrape economic calendar data from multiple websites and collected and organized event data by country, impact level, and asset type and, """) 
      st.write("""- Pandas and Numpy to enhance data manipulation efficiency.""")
@@ -44,9 +47,9 @@ st.write("""Explore the projects I've been involved with at different organizati
 with st.expander('🧑‍🤝‍🧑 **Ateneo Mathematics Society** - Member Relations Department Head (June 2023 - Present)', expanded=expand):
      st.write('As a member relations department head, I oversee and lead the Member Relations Department, ensuring effective communication and collaboration between the organization and its members. I also selected and currently manage a team of heads to smoothly operate the department.')
      st.caption('Skills: Project Management, Team Management')
-#with st.expander('🌹 **Ateneo Seniors' Alliance's Blue Rose** - Deputy for External Relations (April 2024 - May 2024)', expanded=expand):
-     #st.write('Blue Rose is the annual culminating event of graduating Seniors & Super Seniors of the Loyola Schools. As a deputy for external relations, I handle partnership proposals for food and beverage vendors.')
-     #st.caption('Skills: Project Management, Communication')
+with st.expander('🌹 **Ateneo Blue Rose** - Deputy for External Relations (April 2024 - May 2024)', expanded=expand):
+     st.write('Blue Rose is the annual culminating event of graduating Seniors & Super Seniors of the Loyola Schools. As a deputy for external relations, I lead a team that handles partnership proposals for food and beverage vendors.')
+     st.caption('Skills: Project Management, Communication')
 with st.expander('📃 **Ateneo Mathematics Society** - Leadership Training Seminar Logistics-Platforms Committee (February 2024 - Present)', expanded=expand):
      st.write('As a logistics-platforms committee member, I am in charge of handling the onsite logistics of the event, which includes but not limited to contingencies and mobility plans.')
      st.caption('Skills: Project Management')
@@ -57,7 +60,7 @@ with st.expander('💻 **Philippines Junior Data Science Challenge** - Finalist 
      #st.write('Our team secured...')
      #st.caption('Skills: Data Analysis, Data Visualization (SAP Analytics Cloud), Software Deployment (SAP Build Apps)')
      #st.page_link("", label = "Read our data storyboard here!, icon = '🗃️")
-#with st.expander('💡 **ImaGnation: GCash Innovation Challenge** - XX (April 2024 - XX)', expanded=expand):
+#with st.expander('💡 **ImaGnation: GCash Innovation Challenge** - Participants (April 2024)', expanded=expand):
      #st.write('Our team secured...')
      #st.caption('Skills: Concept Ideation, Problem-Solving')
      #st.page_link("", label = "Read our pitch, G for Gigi, here!, icon = '🗃️")
@@ -68,7 +71,7 @@ expand=False
 with st.expander('👩‍💻 **Programming Languages**', expanded=expand):
      st.write(' Python, SQL, R, HTML, CSS')
 with st.expander('📊 **Data Science, Big Data & Machine Learning**', expanded=expand):
-     st.write('MongoDB, DynamoDB, Python (e.g. scikit-learn, NLTK, PyTorhc, Numpy, Pandas, Matplotlib, Seaborn), Data Science Pipeline (cleaning, wrangling, visualization, modeling, interpretation), Web Scraping (Selenium, BeautifulSoup),')
+     st.write('MongoDB, DynamoDB, Python (e.g. scikit-learn, NLTK, PyTorch, Numpy, Pandas, Matplotlib, Seaborn), Data Science Pipeline (cleaning, wrangling, visualization, modeling, interpretation), Web Scraping (Selenium, BeautifulSoup)')
 with st.expander('🎲 **Statistics**', expanded=expand):
      st.write('Statistical Analysis (Hypothesis Testing), Multiple Linear Regression, ANOVA, Time Series and Forecasting, Probability Theory')
 
