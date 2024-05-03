@@ -65,11 +65,11 @@ with tab1:
    #container.image("images/title slide.png")
    container.write("This project utilized Selenium and BeautifulSoup to scrape economic calendar data from multiple websites and collected and organized event data by country, impact level, and asset type.")
    container.caption("*Please note that due to internship constraints, I'm unable to provide further details about this project.*")
-   st.subheader("📝 Ateneo AISIS Enlistment Dashboard")
-   container = st.container(border=True)
+   #st.subheader("📝 Ateneo AISIS Enlistment Dashboard")
+   #container = st.container(border=True)
    #container.image("images/title slide.png")
-   container.write("The project involved analyzing the enlistment process of Ateneo de Manila University to identify data metrics at each stage. From this analysis, a dimensional data schema was devised, detailing the necessary information for each step. Mock data was then generated and populated into fact and dimension tables to simulate the enrollment process. Subsequently, a dashboard using streamlit and plotly was created utilizing the mock data. OLAP operations were applied to extract further insights from the data, exploring trends and patterns within the enrollment process.")
-   container.caption("*Coming soon!*")
+   #container.write("The project involved analyzing the enlistment process of Ateneo de Manila University to identify data metrics at each stage. From this analysis, a dimensional data schema was devised, detailing the necessary information for each step. Mock data was then generated and populated into fact and dimension tables to simulate the enrollment process. Subsequently, a dashboard using streamlit and plotly was created utilizing the mock data. OLAP operations were applied to extract further insights from the data, exploring trends and patterns within the enrollment process.")
+   #container.caption("*Coming soon!*")
 
 with tab2:
    st.header("📈 Mini-Projects")
