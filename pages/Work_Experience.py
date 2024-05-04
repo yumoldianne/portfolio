@@ -27,7 +27,7 @@ def my_widget(key):
 st.title('💼 Work Experience')
 st.write("""Take a look at the work I've been doing.""")
 expand=False
-with st.expander('🥤 **Coca-Cola Beverages Philippines, Inc. ** - Analytics and Insights Intern (May 2024 - Present)', expanded=expand):
+with st.expander('🥤 **Coca-Cola Beverages Philippines, Inc.** - Analytics and Insights Intern (May 2024 - Present)', expanded=expand):
      st.write("""As an analytics and insights intern, I work under the Modern Trade Analytics & Insights team. """)
      st.caption('Skills: Data Analysis')
 with st.expander('💵 **Undisclosed Hedge Fund** - Data Operator Intern (March 2024 - April 2024)', expanded=expand):
