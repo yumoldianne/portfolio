@@ -30,31 +30,38 @@ st.write("My projects have two classifications: :violet[projects] and :blue[mini
 
 expand=False
 
+#tab1, tab2, tab3 = st.tabs(["Projects", "Competitions", "Mini-Projects"])
 tab1, tab2 = st.tabs(["Projects", "Mini-Projects"])
 
 with tab1:
    st.header("💻 Projects")
    st.write("Projects are executed demonstrations of advanced data extraction and analysis techniques and visualization methodologies, designed to uncover intricate patterns and communicate complex insights.")
-   #st.subheader("🏘️ Airbnb Market Analysis")
-   #container = st.container(border=True)
-   #container.caption("Project Overview")
-   #container.write("This project...")
+   st.subheader("🏘️ Airbnb Market Analysis")
+   container = st.container(border=True)
+   container.image("images/Airbnb Market Analysis.png")
+   container.write("Our project analyzed the Airbnb data from Big Bear and Joshua Tree, California, aiming to optimize Airbnb hosts' occupancy rates and forecast future revenue and occupancy. We examined key market trends and listing characteristics and we identified factors influencing rental prices through regression models. Using time series forecasting, we predicting revenue and occupancy rates. This analysis equips Airbnb hosts with data-driven insights to enhance listing performance and capitalize on market opportunities.")
+   container.page_link("https://drive.google.com/file/d/1tGVg8B8PyKTgAXisYzJP8KnNZYds1zAD/view?usp=sharing", label = "Read more about the project here!", icon ="🗃️")
    #container.caption("Tools: ")
    #st.subheader("🪹 Nestbox")
    #container = st.container(border=True)
    #container.caption("Project Overview")
    #container.write("This project...")
    #container.caption("Tools: Streamlit")
-   st.subheader("🏦 Banking Dynamics with Customer Segmentation and Time Series Analysis")
-   container = st.container(border=True)
-   container.image("images/title slide.png")
-   container.write("We presented this for Philippine Junior Data Science Challenge 2023. We conducted a data science project for a bank, emphasizing customer segmentation and time series forecasting to improve business decisions and customer satisfaction. Our work included data cleaning, exploratory analysis, and optimizing segmentation with five clustering algorithms. We also conducted hypothesis testing using the Kruskal-Wallis test and employed Prophet for time series forecasting.")
-   container.page_link("pages/Banking_Dynamics.py", label = "Read more about the project here!", icon ="🗃️")
    st.subheader("🧘 Mental Health Patterns in Pandemic Discourse Classifier")
    container = st.container(border=True)
    container.image("images/MindInsight Classifier.jpg")
    container.write("We developed Convolutional Neural Network (CNN) and Long Short-Term Momory (LSTM) models trained on a varied dataset of Reddit posts discussing mental health during the pandemic. The project aimed to classify posts into categories like anxiety, schizophrenia, and more, shedding light on the complexities of identifying overlapping symptoms and understanding the language used by those experiencing these conditions.")
    container.page_link("pages/MH_DisClass.py", label = "Read more about the project here!", icon ="🗃️")
+   st.subheader("🏦 Banking Dynamics with Customer Segmentation and Time Series Analysis")
+   container = st.container(border=True)
+   container.image("images/title slide.png")
+   container.write("Presented in Philippine Junior Data Science Challenge 2023. We conducted a data science project for a bank, emphasizing customer segmentation and time series forecasting to improve business decisions and customer satisfaction. Our work included data cleaning, exploratory analysis, and optimizing segmentation with five clustering algorithms. We also conducted hypothesis testing using the Kruskal-Wallis test and employed Prophet for time series forecasting.")
+   container.page_link("pages/Banking_Dynamics.py", label = "Read more about the project here!", icon ="🗃️")
+   st.subheader("🚗 Time Series Analysis of Motor Vehicle Collisions in the United States")
+   container = st.container(border=True)
+   container.caption("Project Overview")
+   container.write("This project addressed the significant challenge of motor vehicle crashes in the United States. We aimed to improve resource allocation and proactive interventions by estimating anticipated accidents. Exploratory analysis revealed autocorrelation and non-stationarity, leading to data transformation and the use of various time series models. The ARMA(4, 2) model emerged as the most suitable, effectively capturing systematic trends and abrupt disturbances. The model's performance during the COVID-19 pandemic, reflecting changes in traffic patterns, highlights its ability to adapt to evolving conditions and underscores the need for continuous model refinement to ensure road safety.")
+   container.page_link("https://drive.google.com/file/d/1FGcGVnIIdfKhLPK7r2ZvxlIhlde5zwn4/view?usp=sharing", label = "Read more about the project here!", icon ="🗃️")
    st.subheader("💉Spatial Mapping and Modeling of Reported Dengue Incidences in Luzon")
    container = st.container(border=True)
    container.image("images/Spatial Mapping and Modelling.png")
@@ -70,6 +77,11 @@ with tab1:
    #container.image("images/title slide.png")
    #container.write("The project involved analyzing the enlistment process of Ateneo de Manila University to identify data metrics at each stage. From this analysis, a dimensional data schema was devised, detailing the necessary information for each step. Mock data was then generated and populated into fact and dimension tables to simulate the enrollment process. Subsequently, a dashboard using streamlit and plotly was created utilizing the mock data. OLAP operations were applied to extract further insights from the data, exploring trends and patterns within the enrollment process.")
    #container.caption("*Coming soon!*")
+
+#with tab2:
+    #st.header("⚙️ Competitions")
+    #st.write("Competitions are projects submitted...")
+    
 
 with tab2:
    st.header("📈 Mini-Projects")
