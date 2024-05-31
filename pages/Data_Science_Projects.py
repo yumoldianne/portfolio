@@ -39,7 +39,7 @@ with tab1:
    st.subheader("🏘️ Airbnb Market Analysis")
    container = st.container(border=True)
    container.image("images/Airbnb Market Analysis.png")
-   container.write("Our project analyzed the Airbnb data from Big Bear and Joshua Tree, California, aiming to optimize Airbnb hosts' occupancy rates and forecast future revenue and occupancy. We examined key market trends and listing characteristics and we identified factors influencing rental prices through regression models. Using time series forecasting, we predicting revenue and occupancy rates. This analysis equips Airbnb hosts with data-driven insights to enhance listing performance and capitalize on market opportunities.")
+   container.write("Our project analyzed the Airbnb data from Big Bear and Joshua Tree, California, aiming to optimize Airbnb hosts' occupancy rates and forecast future revenue and occupancy. We examined key market trends and listing characteristics and we identified factors influencing rental prices through regression models. Using time series forecasting, we predicted revenue and occupancy rates. This analysis equips Airbnb hosts with data-driven insights to enhance listing performance and capitalize on market opportunities.")
    container.page_link("https://drive.google.com/file/d/1tGVg8B8PyKTgAXisYzJP8KnNZYds1zAD/view?usp=sharing", label = "Read more about the project here!", icon ="🗃️")
    #container.caption("Tools: ")
    #st.subheader("🪹 Nestbox")
