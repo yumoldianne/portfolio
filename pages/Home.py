@@ -34,7 +34,7 @@ show_pages(
         Page("Home.py", "Home", "🏠"),
         Page("pages/Data_Science_Projects.py", "Data Science Projects", "📊"),
         Page("pages/Work_Experience.py", "Work Experience", "💼"),
-        Page("pages/Other_Projects.py", "Other Projects", "📦"),
+        #Page("pages/Other_Projects.py", "Other Projects", "📦"),
         Page("pages/Banking_Dynamics.py", "Banking Dynamics", "🏦"),
         Page("pages/MH_DisClass.py", "Mental Health Discourse Classifier", "🧠")
     ]
