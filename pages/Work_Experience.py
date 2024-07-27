@@ -44,7 +44,10 @@ with st.expander('📰 **The Guidon** - Research and Development Analyst (June 2
 
 st.title('🎒 Co-Curricular Activities & Competitions')
 st.write("""Explore the projects I've been involved with at different organizations.""")
-with st.expander('🧑‍🤝‍🧑 **Ateneo Mathematics Society** - Member Relations Department Head (June 2023 - Present)', expanded=expand):
+with st.expander('🧑‍🤝‍🧑 **Ateneo Mathematics Society** - Internals Associate (June 2024 - Present)', expanded=expand):
+     st.write('As an interals associate, I Facilitated the distribution and collection of evaluation forms and feedback reports across all Ateneo Mathematics Society projects and pools, ensuring timely and comprehensive feedback. I led the creation and execution of various formation and training seminars within the organization, enhancing member skills and knowledge. I managed special projects under the Internals Office, including the Sets System and other member engagement initiatives, driving participation and community building. Finally, I  assisted in handling human resource-related efforts, contributing to the effective management of member relations and welfare')
+     st.caption('Skills: Training and Development, Team Management')
+with st.expander('🧑‍🤝‍🧑 **Ateneo Mathematics Society** - Member Relations Department Head (June 2023 - June 2024)', expanded=expand):
      st.write('As a member relations department head, I oversee and lead the Member Relations Department, ensuring effective communication and collaboration between the organization and its members. I also selected and currently manage a team of heads to smoothly operate the department.')
      st.caption('Skills: Project Management, Team Management')
 with st.expander('🌹 **Ateneo Blue Rose** - Deputy for External Relations (April 2024 - May 2024)', expanded=expand):
