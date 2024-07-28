@@ -1,5 +1,5 @@
 import streamlit as st
-from st_pages import Page, show_pages, hide_pages
+from st_pages import show_pages, hide_pages, Page
 
 st.set_page_config(
     page_title="Banking Dynamics",
