@@ -16,18 +16,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-from st_pages import add_page_title, get_nav_from_toml, hide_pages
-
-st.set_page_config(layout="wide")
-
-nav = get_nav_from_toml(".streamlit/pages_sections.toml")
-
-pg = st.navigation(nav)
-
-add_page_title(pg)
-
-pg.run()
-
 hide_pages(["Banking Dynamics", "Mental Health Discourse Classifier"])
 
 st.title("📦 Other Projects")
