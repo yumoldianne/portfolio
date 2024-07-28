@@ -1,5 +1,5 @@
 import streamlit as st
-from st_pages import add_page_title, get_nav_from_toml
+from st_pages import add_page_title, get_nav_from_toml, hide_pages
 
 st.set_page_config(layout="wide")
 
@@ -12,3 +12,5 @@ pg = st.navigation(nav)
 add_page_title(pg)
 
 pg.run()
+
+hide_pages(["Banking Dynamics", "Mental Health Discourse Classifier"])
