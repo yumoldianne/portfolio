@@ -4,9 +4,19 @@ name = "Home"
 icon = "🏠"
 
 [[pages]]
+name = "Projects"
+icon = ":💻:"
+is_section = true
+
+[[pages]]
 path = "pages/Data_Science_Projects.py"
 name = "Data Science Projects"
 icon = "📊"
+
+[[pages]]
+name = "Experience"
+icon = ":⚙️:"
+is_section = true
 
 [[pages]]
 path = "pages/Work_Experience.py"
