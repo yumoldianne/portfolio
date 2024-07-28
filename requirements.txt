@@ -1,2 +1,2 @@
-streamlit
+streamlit==1.73.1
 st_pages
