@@ -12,5 +12,3 @@ pg = st.navigation(nav)
 add_page_title(pg)
 
 pg.run()
-
-hide_pages(["Banking Dynamics", "Mental Health Discourse Classifier"])
