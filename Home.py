@@ -8,6 +8,14 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+sections = st.sidebar.toggle("Sections", value=True, key="use_sections")
+
+nav = get_nav_from_toml(".streamlit/pages.toml")
+
+pg = st.navigation(nav)
+
+add_page_title(pg)
+
 primaryColor = "#575fe8"
 backgroundColor = "#f5f7f3"
 secondaryBackgroundColor = "#c9eab8"
