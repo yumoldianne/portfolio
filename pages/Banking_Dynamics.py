@@ -1,6 +1,23 @@
 import streamlit as st
 from st_pages import add_page_title, get_nav_from_toml, hide_pages
 
+st.set_page_config(
+    page_title="Banking Dynamics",
+    page_icon="🏦",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+sections = st.sidebar.toggle("Sections", value=True, key="use_sections")
+
+nav = get_nav_from_toml(".streamlit/pages.toml")
+
+pg = st.navigation(nav)
+
+add_page_title(pg)
+
+pg.run()
+
 hide_pages(["Banking Dynamics", "Mental Health Discourse Classifier"])
 
 st.image("images/title slide.png")
