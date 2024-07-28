@@ -41,12 +41,12 @@ st.write("""Streamlit allowed me to create web apps with ease. Here are some of 
 #with st.expander():
     #st.write 
 
-with st.sidebar:
-    sections
-    st.subheader("Currently, I'm...")
-    st.write("Working on a forecasting project 📈")
-    st.write("Playing Hades ⚔️")
+#with st.sidebar:
+    #sections
+    #st.subheader("Currently, I'm...")
+    #st.write("Working on a forecasting project 📈")
+    #st.write("Playing Hades ⚔️")
 
-    st.subheader("""Let's connect!""")
-    st.page_link("https://www.linkedin.com/in/yumoldianne/", label="LinkedIn", icon="🤝")
-    st.page_link("https://github.com/yumoldianne", label="GitHub", icon="🤖")
+    #st.subheader("""Let's connect!""")
+    #st.page_link("https://www.linkedin.com/in/yumoldianne/", label="LinkedIn", icon="🤝")
+    #st.page_link("https://github.com/yumoldianne", label="GitHub", icon="🤖")

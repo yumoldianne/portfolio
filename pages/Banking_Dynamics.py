@@ -86,12 +86,3 @@ st.image("images/banking/title slide (5).png")
 container = st.container(border=True)
 container.write("✅ **Conclusion**")
 container.write("From this project, I learned how to implement a comprehensive data science project. This was also my first forray into machine learning and time series forecasting.")
-
-with st.sidebar:
-    st.subheader("Currently, I'm...")
-    st.write("Working on a forecasting project 📈")
-    st.write("Playing Hades ⚔️")
-
-    st.subheader("""Let's connect!""")
-    st.page_link("https://www.linkedin.com/in/yumoldianne/", label="LinkedIn", icon="🤝")
-    st.page_link("https://github.com/yumoldianne", label="GitHub", icon="🤖")

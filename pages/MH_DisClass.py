@@ -32,12 +32,3 @@ with col2:
 container = st.container(border=True)
 container.write("✅ **Conclusion**")
 container.write("From this project, I learned the fundamentals of deep learning. I still have a long way to go in understanding neural networks but I'm proud of this first project in predictive modeling.")
-
-with st.sidebar:
-    st.subheader("Currently, I'm...")
-    st.write("Working on a forecasting project 📈")
-    st.write("Playing Hades ⚔️")
-
-    st.subheader("""Let's connect!""")
-    st.page_link("https://www.linkedin.com/in/yumoldianne/", label="LinkedIn", icon="🤝")
-    st.page_link("https://github.com/yumoldianne", label="GitHub", icon="🤖")

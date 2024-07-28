@@ -79,12 +79,3 @@ with st.expander('🎲 **Statistics**', expanded=expand):
 
 def my_widget(key):
     return st.button(key)
-
-with st.sidebar:
-    st.subheader("Currently, I'm...")
-    st.write("Working on a forecasting project 📈")
-    st.write("Playing Hades ⚔️")
-
-    st.subheader("""Let's connect!""")
-    st.page_link("https://www.linkedin.com/in/yumoldianne/", label="LinkedIn", icon="🤝")
-    st.page_link("https://github.com/yumoldianne", label="GitHub", icon="🤖")

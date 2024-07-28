@@ -110,13 +110,3 @@ with tab2:
    container.image("images/CSCI 115-O Final Presentation.png")
    container.write("We conducted an agent-based modeling project to simulate and analyze the propagation of rumors in various scenarios, considering factors such as acceptance rates, introduction times, and starting locations. The results highlight the significant impact of these factors on the spread of rumor and truth, providing insights for effective intervention strategies.")
    #container.caption("Tools: agentpy")
-
-
-with st.sidebar:
-    st.subheader("Currently, I'm...")
-    st.write("Working on a forecasting project 📈")
-    st.write("Playing Hades ⚔️")
-
-    st.subheader("""Let's connect!""")
-    st.page_link("https://www.linkedin.com/in/yumoldianne/", label="LinkedIn", icon="🤝")
-    st.page_link("https://github.com/yumoldianne", label="GitHub", icon="🤖")
