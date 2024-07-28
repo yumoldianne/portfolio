@@ -1,22 +1,20 @@
 import streamlit as st
-from st_pages import Page, add_page_title, show_pages, hide_pages
+from st_pages import add_page_title, get_nav_from_toml, hide_pages
 
+st.set_page_config(layout="wide")
+
+nav = get_nav_from_toml(".streamlit/pages_sections.toml")
+
+pg = st.navigation(nav)
+
+add_page_title(pg)
+
+pg.run()
 st.set_page_config(
     page_title="Work Experience",
     page_icon="💼",
     layout="wide",
     initial_sidebar_state="expanded"
-)
-
-show_pages(
-    [
-        Page("Home.py", "Home", "🏠"),
-        Page("pages/Data_Science_Projects.py", "Data Science Projects", "📊"),
-        Page("pages/Work_Experience.py", "Work Experience", "💼"),
-        #Page("pages/Other_Projects.py", "Other Projects", "📦"),
-        Page("pages/Banking_Dynamics.py", "Banking Dynamics", "🏦"),
-        Page("pages/MH_DisClass.py", "Mental Health Discourse Classifier", "🧠")
-    ]
 )
 
 hide_pages(["Banking Dynamics", "Mental Health Discourse Classifier"])

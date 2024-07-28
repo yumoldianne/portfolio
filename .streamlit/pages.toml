@@ -1,0 +1,24 @@
+[[pages]]
+path = "Home.py"
+name = "Home"
+icon = "🏠"
+
+[[pages]]
+path = "pages/Data_Science_Projects.py"
+name = "Data Science Projects"
+icon = "📊"
+
+[[pages]]
+path = "pages/Work_Experience.py"
+name = "Work Experience"
+icon = "💼"
+
+[[pages]]
+path = "pages/Banking_Dynamics.py"
+name = "Banking Dynamics"
+icon = "🏦"
+
+[[pages]]
+path = "pages/MH_DisClass.py"
+name = "Mental Health Discourse Classifier"
+icon = "🧠"
