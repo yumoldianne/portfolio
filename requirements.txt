@@ -1,2 +1,2 @@
 streamlit==1.37.0
-st_page
+st_pages
