@@ -42,6 +42,7 @@ st.write("""Streamlit allowed me to create web apps with ease. Here are some of 
     #st.write 
 
 with st.sidebar:
+    sections
     st.subheader("Currently, I'm...")
     st.write("Working on a forecasting project 📈")
     st.write("Playing Hades ⚔️")

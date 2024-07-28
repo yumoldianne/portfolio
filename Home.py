@@ -76,6 +76,7 @@ expand = False
 #st.caption("This website is an open notebook for a fictional depiction of Earth in the 21st Century. It includes a a wiki called 📓Factbook, hundreds of illustrated 📗Stories, and a collection of essays, notes and journals under the 📓MillMint category. To get started, visit the 📕Intro, FAQ, or just have a look around.")
 
 with st.sidebar:
+    sections
     st.subheader("Currently, I'm...")
     st.write("Working on a forecasting project 📈")
     st.write("Playing Hades ⚔️")
