@@ -16,6 +16,8 @@ pg = st.navigation(nav)
 
 add_page_title(pg)
 
+pg.run()
+
 primaryColor = "#575fe8"
 backgroundColor = "#f5f7f3"
 secondaryBackgroundColor = "#c9eab8"

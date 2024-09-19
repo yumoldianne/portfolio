@@ -14,7 +14,7 @@ sections = st.sidebar.toggle("Sections", value=True, key="use_sections")
 
 #pg = st.navigation(nav)
 
-add_page_title(pg)
+#add_page_title(pg)
 
 hide_pages(["Banking Dynamics", "Mental Health Discourse Classifier"])
 
