@@ -11,7 +11,7 @@ st.set_page_config(
 sections = st.sidebar.toggle("Sections", value=True, key="use_sections")
 
 nav = get_nav_from_toml(
-    ".streamlit/pages_sections.toml"
+    ".streamlit/pages.toml"
 )
 
 pg = st.navigation(nav)
