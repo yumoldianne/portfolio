@@ -10,9 +10,9 @@ st.set_page_config(
 
 sections = st.sidebar.toggle("Sections", value=True, key="use_sections")
 
-nav = get_nav_from_toml(".streamlit/pages.toml")
+#nav = get_nav_from_toml(".streamlit/pages.toml")
 
-pg = st.navigation(nav)
+#pg = st.navigation(nav)
 
 add_page_title(pg)
 
